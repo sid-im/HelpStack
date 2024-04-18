@@ -1,7 +1,7 @@
 import axios from 'axios'
 import router from "../api/"
 
-// const API = axios.create({ baseURL: "https://stack-overflow-clone-server-vq27.onrender.com"});
+
 const API = axios.create({ baseURL: "https://backend-hugy.onrender.com"});
 
 API.interceptors.request.use((req) => {
